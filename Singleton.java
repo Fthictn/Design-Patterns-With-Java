@@ -1,5 +1,5 @@
 public class Singleton{
-	private Signleton(){}
+	private Singleton(){}
 	public static Singleton singleton;
 
 	public static Singleton getInstance(){

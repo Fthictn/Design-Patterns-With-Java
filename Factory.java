@@ -1,6 +1,6 @@
 public class Factory{
 	Shape getShape(String shapeType){
-		if(shapeType ==null){
+		if(shapeType == null){
 			return null;
 		}
 		if(shapeType.equalsIgnoreCase("Triangle")){
@@ -12,7 +12,6 @@ public class Factory{
 		return null;
 	}
 }
-
 
 abstract class Shape{
 	protected int width;
